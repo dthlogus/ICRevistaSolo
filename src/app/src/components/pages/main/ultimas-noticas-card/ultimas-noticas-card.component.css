@@ -1,0 +1,17 @@
+.img-noticias{
+  width: 140px;
+  height: 140px;
+}
+
+.titulo-card-noticias{
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: gray;
+}
+
+.descricao-card-noticias{
+  color: #00a5a7;
+  font-weight: bold;
+}

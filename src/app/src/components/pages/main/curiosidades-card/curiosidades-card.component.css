@@ -1,0 +1,9 @@
+.card-curiosidades {
+  display: flex;
+  align-items: center;
+  height: 11.7vh;
+}
+
+.imagem-card {
+  height: 7rem;
+}

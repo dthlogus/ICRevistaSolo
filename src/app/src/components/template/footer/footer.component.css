@@ -1,0 +1,70 @@
+footer {
+  height: 13rem;
+  margin: 0;
+  padding: 0;
+  background-color: #ccc;
+  display: flex;
+}
+
+.footer-link {
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+  margin-right: 15rem;
+  display: flex;
+  flex-direction: column;
+  width: 9vw;
+}
+
+.footer-link > h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.footer-link > a {
+  font-size: 1rem;
+  display: inline;
+  text-decoration: none;
+  color: black;
+}
+
+.footer-link > a:hover {
+  color: #278f96;
+}
+
+.icones {
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+  margin-right: 15rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.iconeFlex {
+  cursor: pointer;
+  display: flex;
+}
+
+.iconeFlex > i {
+  font-size: 3rem;
+}
+
+.ph-youtube-logo-fill {
+  color: rgb(224, 33, 33);
+}
+
+.ph-instagram-logo-bold {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    45deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  background-clip: text;
+}
+
+.logo_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,29 @@
+header {
+  height: 7rem;
+  width: 100vw;
+}
+
+.logo {
+  position: relative;
+  display: inline-block;
+}
+
+.img-logo {
+  position: absolute;
+  top: 0;
+  left: 5rem;
+  height: 4rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.botao-conta {
+  display: flex;
+  justify-content: end;
+  align-items: flex-start;
+  padding: 0;
+}

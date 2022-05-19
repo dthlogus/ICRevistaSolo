@@ -1,0 +1,18 @@
+.nav-lista {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  list-style: none;
+}
+
+.nav-lista > li > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0 1rem;
+  color: #278f96;
+}
+
+.nav-lista > li > a:hover {
+  color: #53e0bd;
+}

@@ -1,0 +1,16 @@
+.botao-conta {
+  margin-top: 2rem;
+}
+
+.botao-conta > a {
+  padding: 0;
+  margin: 0 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #278f96;
+}
+
+.botao-conta > a:hover {
+  color: #53e0bd;
+}
