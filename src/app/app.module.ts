@@ -16,6 +16,7 @@ import { FooterComponent } from './src/components/template/footer/footer.compone
 import { MainRevistasComponent } from './src/components/pages/revistas/main-revistas/main-revistas.component';
 import { MainEntrarComponent } from './src/components/pages/entrar/main-entrar/main-entrar.component';
 import { RouterModule } from '@angular/router';
+import { CadastroComponent } from './src/components/pages/cadastro/cadastro.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { RouterModule } from '@angular/router';
     FooterComponent,
     MainRevistasComponent,
     MainEntrarComponent,
+    CadastroComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, RouterModule],
   providers: [],
